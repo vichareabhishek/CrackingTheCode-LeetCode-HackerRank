@@ -2,11 +2,12 @@ package Arrays;
 
 public class FirstNonRepeatingElement {
 	static char[] ch = new char[256];
-
+	
 	 static void getCount(String s){
 	
 		for(int i=0; i<s.length(); i++){
 			ch[s.charAt(i)]++;
+			 
 		}
 	}
 	 static int getNonRepeatingIndex(String s){
@@ -23,7 +24,7 @@ public class FirstNonRepeatingElement {
 		return index;
 	}
 public static void main(String[] args) {
-		
+	
 		String a ="geeksforgeeks";
 		
 		int index = getNonRepeatingIndex(a);

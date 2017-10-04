@@ -34,7 +34,7 @@ public class J_Anagram {
 		for(int i=0 ; i<26; i++){
 		
 			result = result+Math.abs(arr1[i]);
-			System.out.println(result);
+			//System.out.println(result);
 		}
 		return result;
 }
