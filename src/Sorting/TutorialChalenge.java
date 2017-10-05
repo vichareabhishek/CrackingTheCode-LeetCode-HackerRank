@@ -16,7 +16,7 @@ public class TutorialChalenge {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = scan.nextInt();
 			if (m == arr[i]) {
-				System.out.println(i);
+				 System.out.println(i);
 			}
 		}
 

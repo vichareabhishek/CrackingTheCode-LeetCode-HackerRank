@@ -16,11 +16,11 @@ public class HashMap {
 		
 		LinkedList list = data[j];
 		
-		//list.insert(key,P);   checks the duplicate values and overwrite them
+		//list.insert(key,P);   //checks the duplicate values and overwrite them
 		return true;
 	}
 
-	public int indexOf(int hashCode) {
+	public int indexOf(int hashCode) {// returns indexOF from hashcode
 		
 		return 0;
 	}

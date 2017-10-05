@@ -19,12 +19,12 @@ public class RemoveList {
 		list.add(1023);
 		list.add(115);
 		list.add(128);
-//		for(int i=1; i<list.size(); i++){
-//			if(i%2==0)
-//				list.remove(i);
-//		}
-		for(int i=1; i<list.size(); i++){
-			if(list.get(i)%4==0){
+		// for(int i=1; i<list.size(); i++){
+		// if(i%2==0)
+		// list.remove(i);
+		// }
+		for (int i = 1; i < list.size(); i++) {
+			if (list.get(i) % 4 == 0) {
 				list.remove(i);
 			}
 		}
