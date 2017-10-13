@@ -10,7 +10,7 @@ public class HashMapEx {
 		Map<Employee, String> map = new HashMap<Employee, String>();
 		Employee emp = new Employee(100,"abc");
 		Employee emp1 = new Employee(100,"abc");
-		
+	
 		map.put(emp, "hello");
 		map.put(emp1, "world");
 		System.out.println(map);
