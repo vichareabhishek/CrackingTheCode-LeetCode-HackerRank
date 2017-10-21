@@ -18,6 +18,7 @@ public class Ques7_Collection {
 	public Integer[] getSorted(Integer[] a){
 		
 		List<Integer> list = new ArrayList<Integer>();
+		
 		String s;
 		for(int i=0; i<a.length;i++){
 			s=a[i].toString();
